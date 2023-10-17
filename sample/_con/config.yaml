@@ -1,0 +1,14 @@
+# 网站配置
+app:
+  # 运行模式：生产环境留空
+  mode: ""
+  # 运行端口
+  port: 6600
+
+
+# =============== 以下内容修改无需重启程序 ===================
+# ======================================= WxPusher 通知设置区域 ===========================================
+# 此处填你申请的 appToken. 官方文档：https://wxpusher.zjiecode.com/docs
+# WP_APP_TOKEN 可在管理台查看: https://wxpusher.zjiecode.com/admin/main/app/appToken
+wxpusher:
+  wp_app_token: ""
