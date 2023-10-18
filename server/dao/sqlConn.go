@@ -100,9 +100,9 @@ func InitWebSettings() {
 	if len(settings) == 0 {
 		zap.L().Debug("Init WebSettings")
 		p := &[]model.WebSettings{
-			{Key: "web_title", Value: "青龙Tools Pro"},
-			{Key: "web_ico", Value: "https://6b7.xyz/img/favicon.ico"},
-			{Key: "web_logo", Value: "https://6b7.xyz/img/logo.png"},
+			{Key: "web_title", Value: "LittleXing"},
+			{Key: "web_ico", Value: "https://img.littlexing.link/file/6192e49e4c86354a334d0.png"},
+			{Key: "web_logo", Value: "https://img.littlexing.link/file/6192e49e4c86354a334d0.png"},
 			{Key: "register", Value: "1"},
 			{Key: "notice", Value: "公告栏"},
 		}
